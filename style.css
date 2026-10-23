@@ -6,7 +6,7 @@ a{color:var(--maroon)}.wrap{max-width:1150px;margin:auto;padding:0 26px}
 nav{background:white;border-bottom:1px solid #eee;position:sticky;top:0;z-index:3;box-shadow:0 3px 18px #0000000a}
 nav .wrap{display:flex;align-items:center;justify-content:space-between;gap:18px;min-height:74px}.brand{font-size:17px;font-weight:800;color:var(--maroon);text-decoration:none;line-height:1.15}
 .links{display:flex;align-items:center;gap:17px;flex-wrap:wrap}.links a{text-decoration:none;color:#49434a;font-size:13px;font-weight:700}.links a:hover{text-decoration:underline}.lang{border:1px solid #d8c9ca;border-radius:30px;padding:7px 12px;white-space:nowrap}.lang.active{background:var(--maroon);color:white}
-.hero{min-height:425px;background:linear-gradient(90deg,rgba(50,9,18,.92),rgba(62,15,25,.70) 47%,rgba(37,17,24,.1)),url('campus-students.png') center 42%/cover;display:flex;align-items:center;color:white}
+.hero{min-height:425px;background:linear-gradient(90deg,rgba(50,9,18,.92),rgba(62,15,25,.70) 47%,rgba(37,17,24,.1)),url('https://drive.google.com/thumbnail?id=1_weNexFfLau4reLbH5Hfv6EW5S2d7gGb&sz=w1600') center 42%/cover;display:flex;align-items:center;color:white}
 .hero .wrap{width:100%;padding-top:65px;padding-bottom:65px}.eyebrow{text-transform:uppercase;letter-spacing:2.4px;font-size:12px;font-weight:800;color:#f3d7ae}
 h1{font-size:clamp(36px,5vw,60px);line-height:1.07;letter-spacing:-1.7px;margin:13px 0 18px;max-width:620px}
 .hero p{font-size:18px;max-width:560px;margin:0 0 25px;color:#f9eeee}.button{display:inline-block;padding:12px 20px;background:white;color:var(--maroon);font-weight:800;text-decoration:none;border-radius:7px;margin-right:9px;margin-bottom:8px}
