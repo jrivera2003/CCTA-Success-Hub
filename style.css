@@ -30,3 +30,30 @@ footer{background:#2a2025;color:#eae3e3;padding:25px 0;font-size:13px}footer a{c
 
 /* Bilingual college tips ticker: pauses on hover/focus and respects reduced motion */
 .tips-ticker{display:flex;align-items:stretch;background:#781923;color:#fff;min-height:46px;overflow:hidden;border-bottom:2px solid #a6474d}.ticker-label{display:flex;align-items:center;flex-shrink:0;background:#51121b;font-weight:800;font-size:12px;letter-spacing:.2px;padding:10px 18px;z-index:1;white-space:nowrap}.ticker-window{overflow:hidden;display:flex;align-items:center;min-width:0;flex:1}.ticker-track{display:flex;width:max-content;animation:ccta-ticker 65s linear infinite}.ticker-group{display:flex;flex-shrink:0;align-items:center}.ticker-tip{display:inline-flex;align-items:center;white-space:nowrap;font-size:13px;font-weight:600;padding:0 25px}.ticker-tip:before{content:"✦";margin-right:20px;color:#f1c98c}.tips-ticker:hover .ticker-track,.tips-ticker:focus-within .ticker-track{animation-play-state:paused}@keyframes ccta-ticker{from{transform:translateX(0)}to{transform:translateX(-50%)}}@media(prefers-reduced-motion:reduce){.ticker-track{animation:none;display:block;width:auto}.ticker-group{display:block}.ticker-group[aria-hidden=true]{display:none}.ticker-tip{display:block;white-space:normal;padding:7px 15px}.ticker-tip:before{margin-right:8px}}@media(max-width:650px){.ticker-label{font-size:11px;padding:9px 10px;max-width:118px;white-space:normal}.ticker-tip{font-size:12px;padding:0 16px}}
+
+/* CCTA Countdown Ticker */
+.ticker-group {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  gap: 40px;
+  padding-right: 40px;
+}
+
+.ticker-tip {
+  display: inline-flex;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.ticker-tip a {
+  color: #ffffff !important;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.ticker-tip a:hover {
+  color: #ffd78a !important;
+  text-decoration: underline;
+}
