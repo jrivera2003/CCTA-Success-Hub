@@ -57,3 +57,14 @@ footer{background:#2a2025;color:#eae3e3;padding:25px 0;font-size:13px}footer a{c
   color: #ffd78a !important;
   text-decoration: underline;
 }
+
+/* Make all deadline ticker text visible */
+.tips-ticker .ticker-track,
+.tips-ticker .ticker-group,
+.tips-ticker .ticker-tip,
+.tips-ticker .ticker-tip a,
+.tips-ticker .ticker-tip a:visited {
+  color: #ffffff !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+}
